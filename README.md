@@ -1,6 +1,9 @@
 # -BDD---Test-with-Gherkin-Syntax
+## Intro:
 
-# Specification
+In this repository, I wanted to demonstrate how to write test scenarios based on the specification using Gherkin syntax. You can use this Gherkin syntax in tools like Cucumber to automate and execute these test scenarios.
+
+## Specification
 
 We have a web application managing scheduled services for equipment. Services are assigned to specific technicians, who travel to the equipment location. Technicians have a checklist of activities to mark as completed in the app for each service. A completed service is supported by evidence in the form of photos.
 
@@ -23,8 +26,8 @@ Then a toast pops up confirming that the 'Change oil' activity is completed
 
 **Scenario: Technicians cannot tick off done activities**
   
-Given the machine is at location "40.5453454;50.3243243"
-* the browser reports location at "40.5453454;50.3243243"
+Given the machine is at location "10.1234567;50.7654321"
+* the browser reports location at "10.1234567;50.7654321"
 * a service with these todos
 
 | done | activity         |
